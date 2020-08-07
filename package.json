@@ -4,8 +4,7 @@
   "description": "belajar npm dan npm di dicoding",
   "main": "index.js",
   "scripts": {
-    "test": "\"echo \\\"Error:no test specified\\\" && exit 1\"",
-    "start": "http-server ."
+    "build":"webpack"
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,8 @@
     "jquery": "^3.5.1",
     "moment": "^2.27.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
